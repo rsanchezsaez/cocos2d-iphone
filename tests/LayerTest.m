@@ -76,12 +76,18 @@ Class restartAction()
 
 		CGSize s = [[CCDirector sharedDirector] winSize];
 		CCLayerRGBA* layer1 = [CCLayerRGBA node];
- 
+
 		CCSprite *sister1 = [CCSprite spriteWithFile:@"grossinis_sister1.png"];
 		CCSprite *sister2 = [CCSprite spriteWithFile:@"grossinis_sister2.png"];
 
 		[layer1 addChild:sister1];
 		[layer1 addChild:sister2];
+
+        CCLabelBMFont *label = [CCLabelBMFont labelWithString:@"BMFont label" fntFile:@"bitmapFontTest.fnt"];
+        label.position = ccp( s.width*0.5, s.height*0.45/3);
+        label.color = ccc3(128, 255, 255);
+		[layer1 addChild:label];
+
 		[self addChild: layer1 z:0 tag:kTagLayer];
 
 		sister1.position = ccp( s.width*1/3, s.height/2);
@@ -104,7 +110,6 @@ Class restartAction()
            [CCFadeTo actionWithDuration:2 opacity:255],
            [CCDelayTime actionWithDuration:1],
            nil]]];
-
 
     }
 	return self;
@@ -132,6 +137,12 @@ Class restartAction()
 
 		[layer1 addChild:sister1];
 		[layer1 addChild:sister2];
+
+        CCLabelBMFont *label = [CCLabelBMFont labelWithString:@"BMFont label" fntFile:@"bitmapFontTest.fnt"];
+        label.position = ccp( s.width*0.5, s.height*0.45/3);
+        label.color = ccc3(128, 255, 255);
+		[layer1 addChild:label];
+
 		[self addChild: layer1 z:0 tag:kTagLayer];
 
 		sister1.position = ccp( s.width*1/3, 0);
@@ -181,6 +192,12 @@ Class restartAction()
 
 		[layer1 addChild:sister1];
 		[layer1 addChild:sister2];
+
+        CCLabelBMFont *label = [CCLabelBMFont labelWithString:@"BMFont label" fntFile:@"bitmapFontTest.fnt"];
+        label.position = ccp( s.width*0.5, s.height*0.45/3);
+        label.color = ccc3(128, 255, 255);
+		[layer1 addChild:label];
+
 		[self addChild: layer1 z:0 tag:kTagLayer];
 
 		sister1.position = ccp( s.width*1/3, 0);
@@ -229,6 +246,12 @@ Class restartAction()
 
 		[layer1 addChild:sister1];
 		[layer1 addChild:sister2];
+
+        CCLabelBMFont *label = [CCLabelBMFont labelWithString:@"BMFont label" fntFile:@"bitmapFontTest.fnt"];
+        label.position = ccp( s.width*0.5, s.height*0.45/3);
+        label.color = ccc3(128, 255, 255);
+		[layer1 addChild:label];
+
 		[self addChild: layer1 z:0 tag:kTagLayer];
 
 		sister1.position = ccp( s.width*1/3, s.height/2);
@@ -279,6 +302,12 @@ Class restartAction()
 
 		[layer1 addChild:sister1];
 		[layer1 addChild:sister2];
+
+        CCLabelBMFont *label = [CCLabelBMFont labelWithString:@"BMFont label" fntFile:@"bitmapFontTest.fnt"];
+        label.position = ccp( s.width*0.5, s.height*0.45/3);
+        label.color = ccc3(128, 255, 255);
+		[layer1 addChild:label];
+
 		[self addChild: layer1 z:0 tag:kTagLayer];
 
 		sister1.position = ccp( s.width*1/3, 0);
@@ -328,6 +357,12 @@ Class restartAction()
 
 		[layer1 addChild:sister1];
 		[layer1 addChild:sister2];
+
+        CCLabelBMFont *label = [CCLabelBMFont labelWithString:@"BMFont label" fntFile:@"bitmapFontTest.fnt"];
+        label.position = ccp( s.width*0.5, s.height*0.45/3);
+        label.color = ccc3(128, 255, 255);
+		[layer1 addChild:label];
+
 		[self addChild: layer1 z:0 tag:kTagLayer];
 
 		sister1.position = ccp( s.width*1/3, 0);

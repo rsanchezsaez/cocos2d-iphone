@@ -3181,6 +3181,8 @@
 		A0F841F7151D5E4700EBBFCB /* font-issue1343.fnt in Resources */ = {isa = PBXBuildFile; fileRef = A0F841F3151D5E4600EBBFCB /* font-issue1343.fnt */; };
 		A0F841F8151D5E4700EBBFCB /* font-issue1343.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F841F4151D5E4600EBBFCB /* font-issue1343.png */; };
 		AAEA834B0FD5704400F08728 /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = AAEA834A0FD5704400F08728 /* blocks.png */; };
+		BC7F942F1695EB2500738C67 /* bitmapFontTest.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 505463971062867800AB7C52 /* bitmapFontTest.fnt */; };
+		BC7F94301695EB2500738C67 /* bitmapFontTest.png in Resources */ = {isa = PBXBuildFile; fileRef = 505463981062867800AB7C52 /* bitmapFontTest.png */; };
 		DA5F0EC50FFE96D400C7C82E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 50B2CB240E10EE4A00AE9530 /* Default.png */; };
 		DA5F0EC60FFE96D400C7C82E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50B2CB250E10EE4A00AE9530 /* Icon.png */; };
 		DA5F0EC70FFE96D400C7C82E /* grossini.png in Resources */ = {isa = PBXBuildFile; fileRef = 50B2CB280E10EE4A00AE9530 /* grossini.png */; };
@@ -11881,6 +11883,8 @@
 				A0A1C26915CAEA0D0058D96F /* Default-Landscape.png in Resources */,
 				A0579BA01601975E00AF8A12 /* Default-568h@2x.png in Resources */,
 				A0579BD516019C6000AF8A12 /* Default@2x.png in Resources */,
+				BC7F942F1695EB2500738C67 /* bitmapFontTest.fnt in Resources */,
+				BC7F94301695EB2500738C67 /* bitmapFontTest.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
